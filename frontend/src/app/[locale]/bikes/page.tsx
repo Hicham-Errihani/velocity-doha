@@ -6,13 +6,14 @@ import { getTranslations } from "next-intl/server";
 // Route, VTT, Urbain, Enfant, Électrique.
 export default async function BikesPage() {
   const t = await getTranslations("Navigation");
+  const tCommon = await getTranslations("Common");
   const { products } = await getProductsByCategoryHandle("bikes");
 
   return (
     <div className="mx-auto max-w-7xl px-6 py-12">
       <h1 className="font-display text-3xl font-bold">{t("bikes")}</h1>
       <p className="mt-2 text-sm text-foreground/60">
-        {products.length} {products.length > 1 ? "products" : "product"}
+        {tCommon("productCount", { count: products.length })}
       </p>
 
       <div className="mt-8 grid grid-cols-2 gap-x-6 gap-y-10 sm:grid-cols-3 lg:grid-cols-4">

@@ -23,6 +23,7 @@ export async function getProductsByCategoryHandle(handle: string) {
   // 3. Récupérer les produits appartenant à l'un de ces ids
   const { products } = await sdk.store.product.list({
     category_id: categoryIds,
+    region_id: process.env.NEXT_PUBLIC_MEDUSA_QATAR_REGION_ID,
     fields: "id,title,handle,thumbnail,*variants.calculated_price",
     limit: 100,
   });

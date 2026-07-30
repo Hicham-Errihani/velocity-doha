@@ -16,7 +16,8 @@
     "loading": "Loading...",
     "addToCart": "Add to cart",
     "price": "Price",
-    "search": "Search"
+    "search": "Search",
+    "productCount": "{count, plural, one {# product} other {# products}}"
   },
   "Footer": {
     "tagline": "Premium bikes, parts and accessories in Qatar.",
