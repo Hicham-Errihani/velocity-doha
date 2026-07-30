@@ -17,5 +17,15 @@
     "addToCart": "أضف إلى السلة",
     "price": "السعر",
     "search": "بحث"
+  },
+  "Footer": {
+    "tagline": "دراجات وقطع غيار وإكسسوارات فاخرة في قطر.",
+    "shopTitle": "المتجر",
+    "supportTitle": "الدعم",
+    "contactUs": "اتصل بنا",
+    "shippingInfo": "التوصيل في قطر",
+    "returns": "سياسة الإرجاع",
+    "paymentTitle": "الدفع الآمن",
+    "rightsReserved": "جميع الحقوق محفوظة."
   }
 }

@@ -17,5 +17,15 @@
     "addToCart": "Add to cart",
     "price": "Price",
     "search": "Search"
+  },
+  "Footer": {
+    "tagline": "Premium bikes, parts and accessories in Qatar.",
+    "shopTitle": "Shop",
+    "supportTitle": "Support",
+    "contactUs": "Contact us",
+    "shippingInfo": "Shipping in Qatar",
+    "returns": "Returns policy",
+    "paymentTitle": "Secure payment",
+    "rightsReserved": "All rights reserved."
   }
 }
