@@ -1,0 +1,21 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "bikes": "Bikes",
+    "parts": "Parts",
+    "accessories": "Accessories",
+    "cart": "Cart",
+    "account": "Account"
+  },
+  "Home": {
+    "heroTitle": "Ride Doha. Ride Further.",
+    "heroSubtitle": "Premium bikes, parts and accessories, delivered across Qatar.",
+    "shopNow": "Shop Now"
+  },
+  "Common": {
+    "loading": "Loading...",
+    "addToCart": "Add to cart",
+    "price": "Price",
+    "search": "Search"
+  }
+}
