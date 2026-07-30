@@ -30,3 +30,15 @@ export async function getProductsByCategoryHandle(handle: string) {
 
   return { category, products };
 }
+// Récupère un produit complet (options, variantes, prix, stock) via son handle,
+// pour l'affichage de la fiche produit.
+export async function getProductByHandle(handle: string) {
+  const { products } = await sdk.store.product.list({
+    handle,
+    region_id: process.env.NEXT_PUBLIC_MEDUSA_QATAR_REGION_ID,
+    fields:
+      "*variants,*variants.options,*options,*options.values,*variants.calculated_price,*variants.inventory_items.inventory.location_levels,*images",
+  });
+
+  return products[0] ?? null;
+}

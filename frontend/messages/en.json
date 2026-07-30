@@ -19,6 +19,14 @@
     "search": "Search",
     "productCount": "{count, plural, one {# product} other {# products}}"
   },
+  "Product": {
+    "inStock": "{count, plural, one {Only # left in stock} other {# in stock}}",
+    "outOfStock": "Out of stock",
+    "selectOption": "Select {option}",
+    "description": "Description",
+    "specifications": "Specifications",
+    "sku": "SKU"
+  },
   "Footer": {
     "tagline": "Premium bikes, parts and accessories in Qatar.",
     "shopTitle": "Shop",

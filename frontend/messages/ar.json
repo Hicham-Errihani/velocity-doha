@@ -19,6 +19,14 @@
     "search": "بحث",
     "productCount": "{count, plural, one {# منتج} other {# منتجات}}"
   },
+  "Product": {
+    "inStock": "{count, plural, one {تبقى قطعة واحدة فقط} other {متوفر: #}}",
+    "outOfStock": "غير متوفر",
+    "selectOption": "اختر {option}",
+    "description": "الوصف",
+    "specifications": "المواصفات",
+    "sku": "رمز المنتج"
+  },
   "Footer": {
     "tagline": "دراجات وقطع غيار وإكسسوارات فاخرة في قطر.",
     "shopTitle": "المتجر",
